@@ -28,6 +28,8 @@ body{
     position: relative;
     font-size: 27px;
     font-weight: 600;
+    padding: 40%;
+    
 
 }
 .from .input-field{
@@ -45,12 +47,22 @@ body{
     outline: none;
     border-bottom: 2px solid #ccc;
     border-top:2px solid transparent;
-    font-size:1px;
+    font-size:16px;
 }
 .input-field i{
     position:absolute;
     top: 50%;
     left: 0%;
     transform: translateY(-50%);
+    font-size: 23px;
     
+    
+}
+.input-field i.icon{
+    /* poition:absolute; */
+    left: 0;
+}
+.input-field i .eyepsw{
+  
+   right: 10px;
 }
